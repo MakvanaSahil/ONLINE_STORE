@@ -46,7 +46,7 @@ const Home = () => {
 
                     <div className="carousel-inner">
                         <div className="carousel-item active c-item">
-                            <img src="./images/101.jpeg" className="d-block w-100 c-img" alt="Slide 1" />
+                            <img src="https://images.unsplash.com/photo-1516466723877-e4ec1d736c8a?fit=crop&w=2134&q=100" className="d-block w-100 c-img" alt="Slide 1" />
                             <div className="carousel-caption top-0 mt-4">
                                 <p className="mt-5 fs-3 text-uppercase">Discover the hidden world</p>
                                 <h1 className="display-1 fw-bolder text-capitalize">The Electronic World</h1>
@@ -54,7 +54,7 @@ const Home = () => {
                             </div>
                         </div>
                         <div className="carousel-item c-item">
-                            <img src="./images/101.jpeg" className="d-block w-100 c-img" alt="Slide 2" />
+                            <img src="https://images.unsplash.com/photo-1516466723877-e4ec1d736c8a?fit=crop&w=2134&q=100" className="d-block w-100 c-img" alt="Slide 2" />
                             <div className="carousel-caption top-0 mt-4">
                                 <p className="text-uppercase fs-3 mt-5">The season has arrived</p>
                                 <p className="display-1 fw-bolder text-capitalize">3 available tours</p>
@@ -64,7 +64,7 @@ const Home = () => {
                             </div>
                         </div>
                         <div className="carousel-item c-item">
-                            <img src="./images/101.jpeg" className="d-block w-100 c-img" alt="Slide 3" />
+                            <img src="https://images.unsplash.com/photo-1516466723877-e4ec1d736c8a?fit=crop&w=2134&q=100" className="d-block w-100 c-img" alt="Slide 3" />
                             <div className="carousel-caption top-0 mt-4">
                                 <p className="text-uppercase fs-3 mt-5">Destination activities</p>
                                 <p className="display-1 fw-bolder text-capitalize">Go glacier hiking</p>
@@ -142,7 +142,6 @@ const Home = () => {
                                 <div className="col-md-6 col-lg-4 col-xl-3 p-2 feat">
                                     <div className="collection-img position-relative">
                                         <img src="./images/22.webp" className="w-100" />
-                                        {/* <span className="position-absolute bg-primary text-black d-flex align-items-center justify-content-center">sale</span> */}
                                     </div>
                                     <div className="text-center">
                                         <div className="rating mt-3">
@@ -170,7 +169,6 @@ const Home = () => {
                                 <div className="col-md-6 col-lg-4 col-xl-3 p-2 new">
                                     <div className="collection-img position-relative">
                                         <img src="./images/23.webp" className="w-100" />
-                                        {/* <span className="position-absolute bg-primary text-black d-flex align-items-center justify-content-center">sale</span> */}
                                     </div>
                                     <div className="text-center">
                                         <div className="rating mt-3">
@@ -198,7 +196,6 @@ const Home = () => {
                                 <div className="col-md-6 col-lg-4 col-xl-3 p-2 best">
                                     <div className="collection-img position-relative">
                                         <img src="images/24.webp" className="w-100" />
-                                        {/* <span className="position-absolute bg-primary text-black d-flex align-items-center justify-content-center">sale</span> */}
                                     </div>
                                     <div className="text-center">
                                         <div className="rating mt-3">
@@ -226,7 +223,6 @@ const Home = () => {
                                 <div className="col-md-6 col-lg-4 col-xl-3 p-2 feat">
                                     <div className="collection-img position-relative">
                                         <img src="images/25.webp" className="w-100" />
-                                        {/* <span className="position-absolute bg-primary text-black d-flex align-items-center justify-content-center">sale</span> */}
                                     </div>
                                     <div className="text-center">
                                         <div className="rating mt-3">
@@ -254,7 +250,6 @@ const Home = () => {
                                 <div className="col-md-6 col-lg-4 col-xl-3 p-2 new">
                                     <div className="collection-img position-relative">
                                         <img src="images/26.webp" className="w-100" />
-                                        {/* <span className="position-absolute bg-primary text-black d-flex align-items-center justify-content-center">sale</span> */}
                                     </div>
                                     <div className="text-center">
                                         <div className="rating mt-3">
@@ -282,7 +277,6 @@ const Home = () => {
                                 <div className="col-md-6 col-lg-4 col-xl-3 p-2 best">
                                     <div className="collection-img position-relative">
                                         <img src="images/27.webp" className="w-100" />
-                                        {/* <span className="position-absolute bg-primary text-black d-flex align-items-center justify-content-center">sale</span> */}
                                     </div>
                                     <div className="text-center">
                                         <div className="rating mt-3">
@@ -310,7 +304,6 @@ const Home = () => {
                                 <div className="col-md-6 col-lg-4 col-xl-3 p-2 feat">
                                     <div className="collection-img position-relative">
                                         <img src="images/28.webp" className="w-100" />
-                                        {/* <span className="position-absolute bg-primary text-black d-flex align-items-center justify-content-center">sale</span> */}
                                     </div>
                                     <div className="text-center">
                                         <div className="rating mt-3">
@@ -348,7 +341,10 @@ const Home = () => {
                         <div className="special-list row g-0">
                             <div className="col-md-6 col-lg-4 col-xl-3 p-2">
                                 <div className="special-img position-relative overflow-hidden">
-                                    <img src="images/12.webp" className="w-100" />
+                                    <img
+                                        src="https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1722601384/Croma%20Assets/CMS/LP%20Page%20Banners/2024/BAU/pcp_smartphone_nc_newatcroma_OnePlusNord4_2Aug2024_sl3mc0.png?tr=w-1024"
+                                        className="w-100"
+                                    />
                                     {/* <span className="position-absolute d-flex align-items-center justify-content-center text-primary fs-4">
                                         <i className="fas fa-heart"></i>
                                     </span> */}
@@ -364,7 +360,10 @@ const Home = () => {
 
                             <div className="col-md-6 col-lg-4 col-xl-3 p-2">
                                 <div className="special-img position-relative overflow-hidden">
-                                    <img src="images/13.webp" className="w-100" />
+                                    <img
+                                        src="https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1721999361/Croma%20Assets/CMS/LP%20Page%20Banners/2024/BAU/pcp_smartphone_nc_newatcroma_Oppo_26July2024_oo9qx2.png?tr=w-1024"
+                                        className="w-100"
+                                    />
                                     {/* <span className="position-absolute d-flex align-items-center justify-content-center text-primary fs-4">
                                         <i className="fas fa-heart"></i>
                                     </span> */}
@@ -380,7 +379,10 @@ const Home = () => {
 
                             <div className="col-md-6 col-lg-4 col-xl-3 p-2">
                                 <div className="special-img position-relative overflow-hidden">
-                                    <img src="images/14.webp" className="w-100" />
+                                    <img
+                                        src="https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1721999356/Croma%20Assets/CMS/LP%20Page%20Banners/2024/BAU/pcp_smartphone_nc_newatcroma_Redmi_26July2024_xtvg8s.png?tr=w-1024"
+                                        className="w-100"
+                                    />
                                     {/* <span className="position-absolute d-flex align-items-center justify-content-center text-primary fs-4">
                                         <i className="fas fa-heart"></i>
                                     </span> */}
@@ -396,7 +398,10 @@ const Home = () => {
 
                             <div className="col-md-6 col-lg-4 col-xl-3 p-2">
                                 <div className="special-img position-relative overflow-hidden">
-                                    <img src="images/15.webp" className="w-100" />
+                                    <img
+                                        src="https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1721994599/Croma%20Assets/CMS/CAtegory/Mobile%20phone%20-%20C10/pcp_smartphone_nc_newatcroma_Redmi13_26July2024_p6dxiw.png?tr=w-1024"
+                                        className="w-100"
+                                    />
                                     {/* <span className="position-absolute d-flex align-items-center justify-content-center text-primary fs-4">
                                         <i className="fas fa-heart"></i>
                                     </span> */}
@@ -512,7 +517,11 @@ const Home = () => {
                                 </p>
                             </div>
                             <div className="col-lg-6 order-lg-0">
-                                <img src="images/about_us.jpg" alt="" className="img-fluid" />
+                                <img
+                                    src="https://img.freepik.com/free-photo/smiling-young-teenage-lady-holds-her-passport-documents-with-ticket-her-hands-isolated-green-studio-wall_231208-4942.jpg?t=st=1723664027~exp=1723667627~hmac=7d3bc76bceaffe70bb76f3427d2ec099ffae5db6bbd007e6131259c225f85207&w=1060"
+                                    alt=""
+                                    className="img-fluid"
+                                />
                             </div>
                         </div>
                     </div>
