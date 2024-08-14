@@ -11,6 +11,7 @@ const VendorProducts = () => {
         is_verified: false,
         final_price: "1000",
     });
+    const navigate = useNavigate();
 
     const handleAddProduct = async (e) => {
         e.preventDefault();
@@ -24,6 +25,7 @@ const VendorProducts = () => {
             })
             .then((res) => {
                 console.log(res.data);
+                navigate("/");
             })
             .catch((err) => {
                 console.log(err);
@@ -74,14 +76,7 @@ const VendorProducts = () => {
                             <label for="image" class="form-label">
                                 Image
                             </label>
-                            <input
-                                name="image"
-                                class="form-control"
-                                type="file"
-                                id="image"
-                                placeholder="enter image url"
-                                onChange={(e) => setProduct({ ...product, image1: e.target.files[0] })}
-                            />
+                            <input name="image" class="form-control" type="file" id="image" placeholder="enter image url" onChange={(e) => setProduct({ ...product, image1: e.target.files[0] })} />
                         </div>
 
                         <div class="mb-3 row">
