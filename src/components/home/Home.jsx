@@ -57,9 +57,9 @@ const Home = () => {
                             <img src="https://images.unsplash.com/photo-1516466723877-e4ec1d736c8a?fit=crop&w=2134&q=100" className="d-block w-100 c-img" alt="Slide 2" />
                             <div className="carousel-caption top-0 mt-4">
                                 <p className="text-uppercase fs-3 mt-5">The season has arrived</p>
-                                <p className="display-1 fw-bolder text-capitalize">3 available tours</p>
+                                <p className="display-1 fw-bolder text-capitalize">3 available mobile</p>
                                 <button className="btn btn-primary px-4 py-2 fs-5 mt-5" data-bs-toggle="modal" data-bs-target="#booking-modal">
-                                    Book a tour
+                                    Go to shop
                                 </button>
                             </div>
                         </div>
@@ -67,9 +67,9 @@ const Home = () => {
                             <img src="https://images.unsplash.com/photo-1516466723877-e4ec1d736c8a?fit=crop&w=2134&q=100" className="d-block w-100 c-img" alt="Slide 3" />
                             <div className="carousel-caption top-0 mt-4">
                                 <p className="text-uppercase fs-3 mt-5">Destination activities</p>
-                                <p className="display-1 fw-bolder text-capitalize">Go glacier hiking</p>
+                                <p className="display-1 fw-bolder text-capitalize">Go Digital</p>
                                 <button className="btn btn-primary px-4 py-2 fs-5 mt-5" data-bs-toggle="modal" data-bs-target="#booking-modal">
-                                    Book a tour
+                                    Go to shop
                                 </button>
                             </div>
                         </div>
@@ -139,7 +139,7 @@ const Home = () => {
                                     );
                                 })}
 
-                                <div className="col-md-6 col-lg-4 col-xl-3 p-2 feat">
+                                {/* <div className="col-md-6 col-lg-4 col-xl-3 p-2 feat">
                                     <div className="collection-img position-relative">
                                         <img src="./images/22.webp" className="w-100" />
                                     </div>
@@ -326,7 +326,7 @@ const Home = () => {
                                         <p className="text-capitalize my-1">Smart Mobile</p>
                                         <span className="fw-bold">$ 45.50</span>
                                     </div>
-                                </div>
+                                </div> */}
                             </div>
                         </div>
                     </div>

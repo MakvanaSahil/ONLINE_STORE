@@ -29,7 +29,7 @@ const Navbar = () => {
             <nav className="navbar navbar-expand-lg navbar-light bg-white py-4 fixed-top">
                 <div className="container nav_main">
                     <a className="navbar-brand d-flex justify-content-between align-items-center order-lg-0" href="/">
-                        <img src="images/shopping-bag-icon.png" alt="site icon" />
+                        {/* <img src="images/shopping-bag-icon.png" alt="site icon" /> */}
                         <span className="text-uppercase fw-lighter ms-2">BRAND</span>
                     </a>
 
