@@ -39,26 +39,9 @@ const Home = () => {
             <div className="home">
                 <div id="hero-carousel" className="carousel slide" data-bs-ride="carousel">
                     <div className="carousel-indicators">
-                        <button
-                            type="button"
-                            data-bs-target="#hero-carousel"
-                            data-bs-slide-to="0"
-                            className="active"
-                            aria-current="true"
-                            aria-label="Slide 1"
-                        ></button>
-                        <button
-                            type="button"
-                            data-bs-target="#hero-carousel"
-                            data-bs-slide-to="1"
-                            aria-label="Slide 2"
-                        ></button>
-                        <button
-                            type="button"
-                            data-bs-target="#hero-carousel"
-                            data-bs-slide-to="2"
-                            aria-label="Slide 3"
-                        ></button>
+                        <button type="button" data-bs-target="#hero-carousel" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#hero-carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#hero-carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
                     </div>
 
                     <div className="carousel-inner">
@@ -75,11 +58,7 @@ const Home = () => {
                             <div className="carousel-caption top-0 mt-4">
                                 <p className="text-uppercase fs-3 mt-5">The season has arrived</p>
                                 <p className="display-1 fw-bolder text-capitalize">3 available tours</p>
-                                <button
-                                    className="btn btn-primary px-4 py-2 fs-5 mt-5"
-                                    data-bs-toggle="modal"
-                                    data-bs-target="#booking-modal"
-                                >
+                                <button className="btn btn-primary px-4 py-2 fs-5 mt-5" data-bs-toggle="modal" data-bs-target="#booking-modal">
                                     Book a tour
                                 </button>
                             </div>
@@ -89,31 +68,17 @@ const Home = () => {
                             <div className="carousel-caption top-0 mt-4">
                                 <p className="text-uppercase fs-3 mt-5">Destination activities</p>
                                 <p className="display-1 fw-bolder text-capitalize">Go glacier hiking</p>
-                                <button
-                                    className="btn btn-primary px-4 py-2 fs-5 mt-5"
-                                    data-bs-toggle="modal"
-                                    data-bs-target="#booking-modal"
-                                >
+                                <button className="btn btn-primary px-4 py-2 fs-5 mt-5" data-bs-toggle="modal" data-bs-target="#booking-modal">
                                     Book a tour
                                 </button>
                             </div>
                         </div>
                     </div>
-                    <button
-                        className="carousel-control-prev"
-                        type="button"
-                        data-bs-target="#hero-carousel"
-                        data-bs-slide="prev"
-                    >
+                    <button className="carousel-control-prev" type="button" data-bs-target="#hero-carousel" data-bs-slide="prev">
                         <span className="carousel-control-prev-icon" aria-hidden="true"></span>
                         <span className="visually-hidden">Previous</span>
                     </button>
-                    <button
-                        className="carousel-control-next"
-                        type="button"
-                        data-bs-target="#hero-carousel"
-                        data-bs-slide="next"
-                    >
+                    <button className="carousel-control-next" type="button" data-bs-target="#hero-carousel" data-bs-slide="next">
                         <span className="carousel-control-next-icon" aria-hidden="true"></span>
                         <span className="visually-hidden">Next</span>
                     </button>
@@ -127,11 +92,7 @@ const Home = () => {
 
                         <div className="row g-0">
                             <div className="d-flex flex-wrap justify-content-center mt-5 filter-button-group">
-                                <button
-                                    type="button"
-                                    className="btn m-2 text-dark active-filter-btn"
-                                    data-filter="*"
-                                >
+                                <button type="button" className="btn m-2 text-dark active-filter-btn" data-filter="*">
                                     All
                                 </button>
                                 <button type="button" className="btn m-2 text-dark" data-filter=".best">
@@ -180,7 +141,7 @@ const Home = () => {
 
                                 <div className="col-md-6 col-lg-4 col-xl-3 p-2 feat">
                                     <div className="collection-img position-relative">
-                                        <img src="images/22.webp" className="w-100" />
+                                        <img src="./images/22.webp" className="w-100" />
                                         {/* <span className="position-absolute bg-primary text-black d-flex align-items-center justify-content-center">sale</span> */}
                                     </div>
                                     <div className="text-center">
@@ -208,7 +169,7 @@ const Home = () => {
 
                                 <div className="col-md-6 col-lg-4 col-xl-3 p-2 new">
                                     <div className="collection-img position-relative">
-                                        <img src="images/23.webp" className="w-100" />
+                                        <img src="./images/23.webp" className="w-100" />
                                         {/* <span className="position-absolute bg-primary text-black d-flex align-items-center justify-content-center">sale</span> */}
                                     </div>
                                     <div className="text-center">
@@ -477,14 +438,10 @@ const Home = () => {
                             <div className="card border-0 col-md-6 col-lg-4 bg-transparent my-3">
                                 <img src="images/blog_1.jpg" alt="" />
                                 <div className="card-body px-0">
-                                    <h4 className="card-title">
-                                        Lorem ipsum, dolor sit amet consectetur adipisicing
-                                    </h4>
+                                    <h4 className="card-title">Lorem ipsum, dolor sit amet consectetur adipisicing</h4>
                                     <p className="card-text mt-3 text-muted">
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet aspernatur
-                                        repudiandae nostrum dolorem molestias odio. Sit fugit adipisci omnis quia
-                                        itaque ratione iusto sapiente reiciendis, numquam officiis aliquid ipsam
-                                        fuga.
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet aspernatur repudiandae nostrum dolorem molestias odio. Sit fugit adipisci omnis quia itaque
+                                        ratione iusto sapiente reiciendis, numquam officiis aliquid ipsam fuga.
                                     </p>
                                     <p className="card-text">
                                         <small className="text-muted">
@@ -501,14 +458,10 @@ const Home = () => {
                             <div className="card border-0 col-md-6 col-lg-4 bg-transparent my-3">
                                 <img src="images/blog_2.jpg" alt="" />
                                 <div className="card-body px-0">
-                                    <h4 className="card-title">
-                                        Lorem ipsum, dolor sit amet consectetur adipisicing
-                                    </h4>
+                                    <h4 className="card-title">Lorem ipsum, dolor sit amet consectetur adipisicing</h4>
                                     <p className="card-text mt-3 text-muted">
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet aspernatur
-                                        repudiandae nostrum dolorem molestias odio. Sit fugit adipisci omnis quia
-                                        itaque ratione iusto sapiente reiciendis, numquam officiis aliquid ipsam
-                                        fuga.
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet aspernatur repudiandae nostrum dolorem molestias odio. Sit fugit adipisci omnis quia itaque
+                                        ratione iusto sapiente reiciendis, numquam officiis aliquid ipsam fuga.
                                     </p>
                                     <p className="card-text">
                                         <small className="text-muted">
@@ -525,14 +478,10 @@ const Home = () => {
                             <div className="card border-0 col-md-6 col-lg-4 bg-transparent my-3">
                                 <img src="images/blog_3.jpg" alt="" />
                                 <div className="card-body px-0">
-                                    <h4 className="card-title">
-                                        Lorem ipsum, dolor sit amet consectetur adipisicing
-                                    </h4>
+                                    <h4 className="card-title">Lorem ipsum, dolor sit amet consectetur adipisicing</h4>
                                     <p className="card-text mt-3 text-muted">
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet aspernatur
-                                        repudiandae nostrum dolorem molestias odio. Sit fugit adipisci omnis quia
-                                        itaque ratione iusto sapiente reiciendis, numquam officiis aliquid ipsam
-                                        fuga.
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet aspernatur repudiandae nostrum dolorem molestias odio. Sit fugit adipisci omnis quia itaque
+                                        ratione iusto sapiente reiciendis, numquam officiis aliquid ipsam fuga.
                                     </p>
                                     <p className="card-text">
                                         <small className="text-muted">
@@ -556,14 +505,10 @@ const Home = () => {
                                 <div className="title pt-3 pb-5">
                                     <h2 className="position-relative d-inline-block ms-4">About Us</h2>
                                 </div>
-                                <p className="lead text-muted">
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, ipsam.
-                                </p>
+                                <p className="lead text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, ipsam.</p>
                                 <p>
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem fuga
-                                    blanditiis, modi exercitationem quae quam eveniet! Minus labore voluptatibus
-                                    corporis recusandae accusantium velit, nemo, nobis, nulla ullam pariatur totam
-                                    quos.
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem fuga blanditiis, modi exercitationem quae quam eveniet! Minus labore voluptatibus corporis
+                                    recusandae accusantium velit, nemo, nobis, nulla ullam pariatur totam quos.
                                 </p>
                             </div>
                             <div className="col-lg-6 order-lg-0">
@@ -665,10 +610,7 @@ const Home = () => {
                                 <h2 className="position-relative d-inline-block ms-4">Newsletter Subscription</h2>
                             </div>
 
-                            <p className="text-center text-muted">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus rem officia
-                                accusantium maiores quisquam dolorum?
-                            </p>
+                            <p className="text-center text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus rem officia accusantium maiores quisquam dolorum?</p>
                             <div className="input-group mb-3 mt-3">
                                 <input type="text" className="form-control" placeholder="Enter Your Email ..." />
                                 <button className="btn btn-primary" type="submit">
