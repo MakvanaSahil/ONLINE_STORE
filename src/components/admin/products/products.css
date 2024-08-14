@@ -1,0 +1,10 @@
+.products {
+    margin-top: 15vh;
+    margin-bottom: 5vh;
+}
+
+@media (max-width: 775px) {
+    .products {
+        width: 90vw;
+    }
+}

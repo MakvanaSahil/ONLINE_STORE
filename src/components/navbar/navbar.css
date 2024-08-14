@@ -1,0 +1,15 @@
+.user_class {
+    display: block !important;
+    right: 20px;
+    margin-left: 85vw;
+    margin-top: 5vh;
+}
+
+@media (max-width: 990px) {
+    .user_class {
+        display: block !important;
+        right: 25vw;
+        margin-left: 50vw;
+        top: 5vh;
+    }
+}
